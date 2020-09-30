@@ -1,3 +1,7 @@
+body {
+    background-color: #E9F0F0;
+}
+
 .covid-ad {
     background-color: #f5f5dc;
     border: none;
@@ -8,7 +12,7 @@
     text-align: center;
 }
 
-a, a:hover {
+a.covid, a.covid:hover {
     color: #b49e43;
     font-weight: bold;
     font-style: normal;
@@ -37,4 +41,20 @@ a, a:hover {
     font-weight: bold;
     position: relative;
     bottom: 3px;
+}
+
+.Header-branding-logo {
+    height: 2.7em;
+    width: 11.25em;
+}
+
+.logo {
+    width: fit-content;
+    border: none;
+    background: transparent;
+    padding: 3em 3em 3em 4.35em;
+}
+
+logo > a {
+    width: fit-content;
 }
