@@ -82,7 +82,7 @@ logo > a {
     font-size: 15px;
     letter-spacing: .1em;
     text-transform: uppercase;
-    background-color: #DF904E;
+    background-color: #ba812e;
     border: none;
     color: #ffffff;
     border-radius: 0;
@@ -173,7 +173,6 @@ logo > a {
     background-color: #ffffff;
     margin-top: 15em;
     width: 100%;
-    height: 50em;
 }
 
 .image-2 {
@@ -185,7 +184,7 @@ logo > a {
 
 .image-title-2 {
     position: absolute;
-    top: 29%;
+    top: 34%;
     left: 45%;
     font-family: psfournier-std-grand;
     font-size: 34px;
@@ -205,13 +204,14 @@ logo > a {
     font-weight: bold;
 }
 
-.values {
+.sub-heading {
     color: #ba812e;
     font-weight: bold !important;
     font-style: normal;
     font-size: 15px;
     letter-spacing: .03em;
-    line-height: 1.8em;   
+    line-height: 1.8em;
+    margin-left: 1.5em; 
 }
 
 .accordion-card {
@@ -236,6 +236,7 @@ logo > a {
     background-color: transparent;
     border: none;
     width: fit-content;
+    font-family: psfournier-std-grand;
 }
 
 .accordion-option .card-header {
@@ -243,6 +244,7 @@ logo > a {
     text-shadow: none;
     border: none;
     width: fit-content;
+    font-family: psfournier-std-grand;
 }
 
 .collapse {
@@ -250,4 +252,39 @@ logo > a {
     margin: -1em 0 0 2.5em;
     font-size: 11pt;
     color: gray;
+}
+
+.accordion-style {
+    height: 22em;
+}
+
+.service-header {
+    font-size: 4em;
+    font-weight: normal;
+    padding: 2em 1em 0.5em 0.75em;
+    font-family: psfournier-std-grand;
+}
+
+.service-text {
+    font-size: 12pt;
+    color: gray;
+    padding: 0 1em 1em 3em;
+    width: 78%;
+    font-family: psfournier-std-grand;
+}
+
+.services-sub-heading {
+    padding-left: 2.5em;
+}
+
+.service-item {
+    font-size: 2em;
+    padding: 1em 0 0 0.65em;
+    width: fit-content;
+    font-family: psfournier-std-grand;
+}
+
+.service-btn {
+    padding: 1em 1em;
+    margin-left: 3em;
 }

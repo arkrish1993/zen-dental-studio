@@ -1,2 +1,2 @@
 # zen-dental-studio
-A new take on the homepage of 'Zen Dental Studio' website.
+A subtle retake on the homepage of 'Zen Dental Studio' website.
