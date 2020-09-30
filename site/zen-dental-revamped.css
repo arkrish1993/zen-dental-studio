@@ -1,5 +1,6 @@
 body {
     background-color: #E9F0F0;
+    font-family: futura-pt, sans-serif;
 }
 
 .covid-ad {
@@ -44,17 +45,209 @@ a.covid, a.covid:hover {
 }
 
 .Header-branding-logo {
+    transform: scale(0.8);
     height: 2.7em;
     width: 11.25em;
+    position: absolute;
+    left: 2.5em;
+    top: 2em;
 }
 
 .logo {
     width: fit-content;
     border: none;
     background: transparent;
-    padding: 3em 3em 3em 4.35em;
+    padding: 1.75em 1.75em 1.75em 1.58em;
 }
 
 logo > a {
     width: fit-content;
+}
+
+.navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+}
+   
+.dropdown-toggle::after {
+    transition: transform 0.15s linear; 
+}
+
+.show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+}
+
+.button-style {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    background-color: #DF904E;
+    border: none;
+    color: #ffffff;
+    border-radius: 0;
+    padding: 0.5em 1em;
+}
+
+.button-style:hover, .button-style:focus {
+    background-color: #be914e;
+    color: #ffffff;
+}
+
+.navbar {
+    padding: 2em 5em 2em 2em;
+}
+
+.black-text {
+    transition: color 0.5s ease;
+    color: #000000 !important;
+}
+
+.grey-text {
+    transition: color 0.5s ease;
+    color: #757575 !important;
+}
+
+.dropdown-menu {
+    top: 2em;
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown-item:hover {
+    transition: color 0.5s ease;
+    background-color: transparent;
+    color: #000000 !important;
+}
+
+.dropdown-item {
+    transition: color 0.5s ease;
+    background-color: transparent;
+    color: #757575 !important;
+}
+
+.image-card {
+    border: none;
+    background-color: transparent;
+}
+
+.image-body {
+    padding: 0;
+}
+
+.image-title {
+    position: absolute;
+    top: 17%;
+    left: 24%;
+    font-family: psfournier-std-grand;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.1em;
+    width: 54%;
+}
+
+.image-subtitle {
+    position: absolute;
+    top: 57%;
+    left: 34%;
+    font-family: psfournier-std-grand;
+    font-size: 34px;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.1em;
+    width: fit-content;
+    color: gray;
+}
+
+.image-button {
+    position: absolute;
+    top: 70%;
+    left: 34%;
+}
+
+.image-card-white {
+    border: none;
+    background-color: #ffffff;
+    margin-top: 15em;
+    width: 100%;
+    height: 50em;
+}
+
+.image-2 {
+    z-index: -1;
+    position: relative;
+    float: right;
+    top: 3em;
+}
+
+.image-title-2 {
+    position: absolute;
+    top: 29%;
+    left: 45%;
+    font-family: psfournier-std-grand;
+    font-size: 34px;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.1em;
+    width: 44%;
+    color: gray;
+}
+
+.image-3 {
+    margin-top: 10%;
+}
+
+.zen {
+    color: black;
+    font-weight: bold;
+}
+
+.values {
+    color: #ba812e;
+    font-weight: bold !important;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .03em;
+    line-height: 1.8em;   
+}
+
+.accordion-card {
+    position: absolute;
+    top: 15%;
+}
+
+.plus-icon {
+    color: #ba812e;
+    font-size: 25pt;
+    margin-right: 0.5em;
+}
+
+.pointer, .pointer:hover {
+    cursor: pointer;
+    font-size: 19pt;
+    text-decoration: none;
+    color: #000000;
+}
+
+.accordion-option {
+    background-color: transparent;
+    border: none;
+    width: fit-content;
+}
+
+.accordion-option .card-header {
+    background-color: transparent;
+    text-shadow: none;
+    border: none;
+    width: fit-content;
+}
+
+.collapse {
+    width: 49%;
+    margin: -1em 0 0 2.5em;
+    font-size: 11pt;
+    color: gray;
 }

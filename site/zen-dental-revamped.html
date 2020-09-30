@@ -35,13 +35,164 @@
             <span class="x-icon" aria-hidden="true">&times;</span>
          </button>
       </div>
-      <div class="card logo animated fadeIn">
-         <a href="https://www.zendentalsf.com">
-            <img src="../image/Zen+Dental+Logo.png" alt="Zen Dental Studio" class="Header-branding-logo">
+      <nav class="navbar navbar-expand-sm animated fadeIn justify-content-end">
+         <a class="logo navbar-brand" href="https://www.zendentalsf.com">
+            <img src="../images/Zen+Dental+Logo.png" alt="Zen Dental Studio" class="Header-branding-logo">
          </a>
-         <!-- <button type="button" class="close close-btn" aria-label="Close" onclick="pling()">
-            <span class="x-icon" aria-hidden="true">&times;</span>
-         </button> -->
-      </div>
+         <!-- Links -->
+         <ul class="navbar-nav" onmouseleave="setDefaults()">
+            <li class="nav-item link"
+            onmouseenter="modifyLinks()">
+               <a class="nav-link black-text" href="https://www.zendentalsf.com/covid19">COVID-19</a>
+            </li>
+            <li class="nav-item link dropdown"
+               onmouseenter="modifyLinks()">
+               <a class="nav-link black-text"
+                  id="about-menu"
+                  role="button" 
+                  data-toggle="dropdown" 
+                  aria-haspopup="true" 
+                  aria-expanded="false" 
+                  onmouseenter="showMenu('about-menu')" 
+                  onmouseleave="closeMenu('about-menu')" >
+                  ABOUT
+               </a>
+               <div class="about-menu dropdown-menu animated fadeInUp black-text" 
+                  aria-labelledby="about-menu" 
+                  onmouseenter="showMenu('about-menu')" 
+                  onmouseleave="closeMenu('about-menu')" >
+                  <a class="dropdown-item" href="https://www.zendentalsf.com/about/#a-staff">STAFF</a>
+                  <a class="dropdown-item" href="https://www.zendentalsf.com/about/#a-office">OFFICE</a>
+               </div>
+            </li>
+            <li class="nav-item link dropdown"
+            onmouseenter="modifyLinks()">
+               <a class="nav-link black-text" 
+                  id="patients-menu" 
+                  role="button" 
+                  data-toggle="dropdown" 
+                  aria-haspopup="true" 
+                  aria-expanded="false"
+                  onmouseenter="showMenu('patients-menu')"
+                  onmouseleave="closeMenu('patients-menu')" >
+                  PATIENTS
+               </a>
+               <div class="patients-menu dropdown-menu animated fadeInUp" 
+                  onmouseenter="showMenu('patients-menu')" 
+                  onmouseleave="closeMenu('patients-menu')" 
+                  aria-labelledby="patients-menu">
+                  <a class="dropdown-item" href="https://www.zendentalsf.com/patients/#p-insurance">INSURANCE</a>
+                  <a class="dropdown-item" href="https://www.zendentalsf.com/patients/#p-membership">MEMBERSHIP</a>
+               </div>
+            </li>
+            <li class="nav-item link"
+            onmouseenter="modifyLinks()">
+               <a class="nav-link black-text" href="https://www.zendentalsf.com/contact">CONTACT</a>
+            </li>
+            <li class="nav-item">
+               <button class="btn button-style">BOOK NOW</button>
+            </li>
+         </ul>
+      </nav>
+
+      <div class="card animated fadeInLeft image-card">
+         <div class="card-body image-body">
+            <img src="../images/image-1.jpeg" class="image-1" height="592px">
+            <figcaption>
+               <div class="image-card">
+                  <div class="image-title"><p>Where your smile means more.</p></div>
+                  <div class="image-subtitle" ><p>Treat your smile, treat your soul.</p></div>
+                  <div class="image-button" >
+                     <a class="btn button-style" href="https://www.nexhealth.com/appt/zendentalstudio">Book an Appointment</a>
+                  </div></div>
+               </div>
+            </figcaption>
+         </div>
+       </div>
+
+       <div class="animated fadeInRight">
+          <img src="../images/ZENDENTALSTUDIO_20180729_150751_6845.jpg" class="image-2" height="427px">
+       </div>
+
+       <div class="card animated fadeInLeft image-card-white">
+         <div class="card-body image-body">
+            <img src="../images/ZENDENTALSTUDIO_20180729_145000_6824+copy.jpg" class="image-3" height="427px">
+            <figcaption>
+               <div class="image-card">
+                  <div class="image-title-2"><p>At <span class="zen">Zen Dental Studio</span>, we believe a beautiful smile starts from within. Equipped with latest technology, our expert staff provides exceptional dental care within a space designed for personal rejuvenation and renewal.</p></div>
+               </div>
+            </figcaption>
+         </div>
+       </div>
+       
+       <div class="card animated fadeInRight image-card">
+         <div class="card-body image-body">
+            <img src="../images/Zen+Dental+Office+Space.png" class="image-2" height="540px">
+         </div>
+         <div class="card-body accordion-card">
+            <div class="values">OUR VALUES</div>
+               <div id="accordion">
+                  <div class="card accordion-option">
+                     <div class="card-header">
+                        <a class="pointer card-link" data-toggle="collapse" onclick="toggle('transparency')">
+                           <span class="plus-icon">+</span>Transparency
+                        </a>
+                     </div>
+                     <div id="transparency" class="collapse" data-parent="#accordion">
+                        <div class="animated card-body">
+                           The best patient is an educated patient. You deserve full transparency, so we carefully explain each treatment every step of the way.
+                           <br>
+                           We'll make sure you know why you are being prescribed a treatment and the precise cost of every procedure before it begins. Your treatment doesn't end until you are fully satisfied with the care you've received.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card accordion-option">
+                     <div class="card-header">
+                        <a class="pointer card-link" data-toggle="collapse" onclick="toggle('excellence')">
+                           <span class="plus-icon">+</span>Excellence
+                        </a>
+                     </div>
+                     <div id="excellence" class="collapse" data-parent="#accordion">
+                        <div class="animated card-body">
+                           You deserve exceptional dental care, so we tackle every treatment with our full attention and expertise. Our state-of-the-art dental equipment allows us to better diagnose your specific needs, and treat them quickly and painlessly.
+                           <br>
+                           And you'll be in good hands. Our doctor completes over 100 hours of additional training each year, perfecting her skills and incorporating the latest developments in dental medicine.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card accordion-option">
+                     <div class="card-header">
+                        <a class="pointer card-link" data-toggle="collapse" onclick="toggle('service')">
+                           <span class="plus-icon">+</span>Service
+                        </a>
+                     </div>
+                     <div id="service" class="collapse" data-parent="#accordion">
+                        <div class="animated card-body">
+                           A trip to the dentist’s office should be a source of serenity, not anxiety.
+                           <br>
+                           We’ve cut out the paperwork and streamlined the entire dentist experience. Book your appointments and complete your forms online. You can check in on an iPad when you arrive, and receive a clearly itemized invoice before your leave.
+                           <br>
+                           Need an escape during your treatment? Watch Netflix or Hulu while we work our magic.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="card accordion-option">
+                     <div class="card-header">
+                        <a class="pointer card-link" data-toggle="collapse" onclick="toggle('mindfulness')">
+                           <span class="plus-icon">+</span>Mindfulness
+                        </a>
+                     </div>
+                     <div id="mindfulness" class="collapse" data-parent="#accordion">
+                        <div class="animated card-body">
+                           Beautiful smiles begin on the inside, which is why our commitment to exceptional dentistry demands we honor your soul as well.
+                           <br>
+                           We have designed a space to serve as an oasis of escape, with modern design, a matcha tea station, as well as a meditation cell to help you achieve mindfulness and tranquility.
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+       </div>
     </body>
 </html>
