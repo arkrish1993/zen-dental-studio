@@ -1,0 +1,40 @@
+.covid-ad {
+    background-color: #f5f5dc;
+    border: none;
+}
+
+.covid-link {
+    padding: 0.45em;
+    text-align: center;
+}
+
+a, a:hover {
+    color: #b49e43;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .03em;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.close-btn, .close-btn:hover {
+    width: 45px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 1.75em;
+    background-color: #d4cdad !important;
+    border: none;
+}
+
+.x-icon {
+    color: #836e19;
+    background-color: #d4cdad;
+    text-shadow: none;
+    font-size: 11pt;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+}
