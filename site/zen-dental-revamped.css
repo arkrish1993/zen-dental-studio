@@ -209,9 +209,9 @@ logo > a {
     font-weight: bold !important;
     font-style: normal;
     font-size: 15px;
-    letter-spacing: .03em;
     line-height: 1.8em;
-    margin-left: 1.5em; 
+    margin-left: 1.5em;
+    letter-spacing: 2px;
 }
 
 .accordion-card {
@@ -274,12 +274,12 @@ logo > a {
 }
 
 .services-sub-heading {
-    padding-left: 2.5em;
+    padding-left: 1.75em;
 }
 
 .service-item {
     font-size: 2em;
-    padding: 1em 0 0 0.65em;
+    padding: 1em 0 0 0.25em;
     width: fit-content;
     font-family: psfournier-std-grand;
 }
@@ -287,4 +287,108 @@ logo > a {
 .service-btn {
     padding: 1em 1em;
     margin-left: 3em;
+}
+
+.reviews-body {
+    text-align: center;
+    height: 16em;
+}
+
+.reviews-sub-heading {
+    margin-top: 8%;
+}
+
+.carousel-item-header {
+    text-align: left;
+    margin-left: 32%;
+    margin-top: 2em;
+    font-size: 15pt;
+    font-family: 'PSFournier Std Grand';
+}
+
+.carousel-item-data {
+    font-size: 16pt;
+    color: gray;
+    width: 32%;
+    margin-left: 24%;
+    margin-top: 1em;
+    font-family: 'PSFournier Std Grand';
+}
+
+.query-body {
+    text-align: center;
+}
+
+.query-text {
+    font-size: 2em;
+    font-style: italic;
+    font-family: psfournier-std-grand;
+    margin: 0 0 0.5em 0;
+}
+
+.query-btn {
+    padding: 1.5em;
+}
+
+.book-btn {
+    padding: 1em 1.5em 1em 1.5em;
+    margin-left: 3.5em;
+}
+
+.black-header {
+    font-size: 13px;
+    color: #000;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 3em 3em 1em 4em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #A6C4C5;
+}
+
+.footer-link {
+    color: black;
+    font-size: 1.5em;
+    font-family: psfournier-std-grand;
+    margin: 1em 0 0 0.5em;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    transition: color 0.5s ease;
+    color: #ba812e;
+    font-size: 1.5em;
+    font-family: psfournier-std-grand;
+    margin: 1em 0 0 0.5em;
+    text-decoration: none;
+}
+
+.footer-item {
+    color: black;
+    font-size: 1.5em;
+    font-family: psfournier-std-grand;
+    margin: 0 0 0.25em 0.5em;
+}
+
+.address-link {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 10.5pt;
+    margin-left: 3.75em;
+}
+
+.address-link:hover {
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 10.5pt;
+    margin-left: 3.75em;
+}
+
+.address-text {
+    color: black;
+    font-size: 10.5pt;
+    margin: 1em 0 1em 3.75em;
 }
