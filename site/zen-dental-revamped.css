@@ -307,7 +307,7 @@ logo > a {
 .carousel-item-header {
     font-size: 15pt;
     font-family: 'PSFournier Std Grand';
-    margin: 1em 0 1em 0;
+    margin: 2em 0 1em 0;
 }
 
 .carousel-item-data {
@@ -399,4 +399,26 @@ logo > a {
     color: black;
     font-size: 12pt;
     position: absolute;
+}
+
+.carousel-icon {
+    color: black;
+    font-size: 17pt;
+    font-weight: bold;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.carousel-control-prev {
+    width: fit-content;
+    position: absolute;
+    left: 30%;
+    cursor: pointer;
+}
+
+.carousel-control-next {
+    width: fit-content;
+    position: absolute;
+    right: 25%;
+    cursor: pointer;
 }

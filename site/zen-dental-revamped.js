@@ -1,3 +1,5 @@
+var currentPos = 0;
+
 function pling() {
     document.querySelector('.covid-ad').hidden = true;
 }
@@ -47,4 +49,42 @@ function toggle(option) {
         optionEl.querySelector('.animated').classList.remove('fadeInUp');
         optionEl.querySelector('.animated').classList.add('fadeInDown');
     }
+}
+
+function setActiveSlide(action) {
+    let slides = document.getElementsByClassName('carousel-item');
+    let slidesArr = Array.from(slides);
+    slidesArr.forEach(function(slide, slidePos) {   
+        let classList = slides[slidePos].classList;
+        if (this.currentPos !== slidePos) {
+            classList.remove('active');
+        } else {
+            classList.add('active');
+            if (action === 'next') {
+                classList.remove('slideInLeft');
+                classList.add('slideInRight');
+            } else {
+                classList.remove('slideInRight');
+                classList.add('slideInLeft');
+            }
+        }
+    });
+}
+
+function shiftNext() {
+    if (this.currentPos === 3) {
+        this.currentPos = 0;
+    } else {
+        this.currentPos ++;
+    }
+    this.setActiveSlide('next');
+}
+
+function shiftPrev() {
+    if (this.currentPos === 0) {
+        this.currentPos = 3;
+    } else {
+        this.currentPos --;
+    }
+    this.setActiveSlide('prev');
 }
