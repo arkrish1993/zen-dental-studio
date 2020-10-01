@@ -72,7 +72,8 @@ a.covid:hover {
 
 .navbar-nav {
 	position: absolute;
-    top: 3.5vw;
+	top: 3.5vw;
+    right: 5vw;
 }
 
 .nav-link {
@@ -463,4 +464,103 @@ a.covid:hover {
 .image-map {
 	height: 100%;
 	width: 100%;
+}
+
+.overlay {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	background-color: rgb(255, 255, 255) rgb(0,0,0);
+	background-color: rgba(255, 255, 255, 0.9);
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.overlay-content {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.overlay a {
+	padding: 1vw;
+    text-decoration: none;
+    font-size: 7vw;
+    color: black;
+    display: block;
+	transition: 0.3s;
+	cursor: pointer;
+    font-family: 'PSFournier Std Grand';
+}
+
+.overlay a:hover, .overlay a:focus {
+	color: #ba812e;
+}
+
+.overlay {
+	position: absolute;
+	color: #ba812e;
+}
+
+.fa-bars {
+	color:  #ba812e;
+}
+
+@media screen and (max-width: 600px) {
+	#menu {
+		display: none;
+	}
+
+	#ham-menu {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	#menu {
+		display: block;
+	}
+
+	#ham-menu, #myNav {
+		display: none;
+	}
+}
+
+.hamburger-btn {
+	position: absolute;
+    right: 1vw;
+}
+
+.closebtn, .closebtn:hover {
+    position: absolute;
+    top: 0vw;
+    right: 3vw;
+    font-size: 6vw;
+	color: #ba812e;
+	cursor: pointer;
+}
+
+.about, .patients {
+	display: none;
+}
+
+.main-menu, .about, .patients {
+    position: absolute;
+    top: 6vw;
+    left: 8vw;
+    text-align: left;
+}
+
+.mini-menu-btn {
+	padding: 3vw;
+    font-size: 3vw;
+}
+
+.back-btn, .back-btn:hover {
+	font-size: 5vw;
+    color: gray;
+    text-decoration: none;
 }

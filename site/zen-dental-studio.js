@@ -100,3 +100,26 @@ function shiftPrev() {
 	}
 	this.setActiveSlide('prev');
 }
+
+function openNav() {
+	document.getElementById("myNav").style.width = "100%";
+	document.body.style.overflow = 'hidden';
+	this.goBack('about');
+	this.goBack('patients');
+}
+  
+function closeNav() {
+	document.body.style.overflow = 'auto';
+	document.getElementById("myNav").style.width = "0%";
+}
+
+function moveToSubmenu(menu) {
+	document.querySelector('.' + menu).style.display = 'block';
+	document.querySelector('.main-menu').hidden = true;
+}
+
+function goBack(menu) {
+	document.querySelector('.' + menu).style.display = '';
+	document.querySelector('.main-menu').hidden = false;
+}
+  

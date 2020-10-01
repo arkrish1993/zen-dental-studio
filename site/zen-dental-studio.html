@@ -25,12 +25,13 @@
       
       <link rel="stylesheet" href="../lib/bootstrap/dist/css/bootstrap.min.css">
       <link rel="stylesheet" href="../lib/animate/animate.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="zen-dental-studio.css">
       
       <script src="zen-dental-studio.js"></script>
    </head>
 
-   <body>
+   <body  onresize="closeNav()">
       
       <!-- Covid-19 notification -->
       <div class="card covid-ad animated fadeInDown">
@@ -45,7 +46,7 @@
       </div>
 
       <!-- Header: Logo + Navigation-->
-      <nav class="navbar navbar-expand-sm animated fadeIn justify-content-end">
+      <nav id="menu" class="navbar navbar-expand-sm animated fadeIn justify-content-end">
          <a class="logo navbar-brand" href="https://www.zendentalsf.com">
          <img src="../images/Zen+Dental+Logo.png" alt="Zen Dental Studio" class="Header-branding-logo">
          </a>
@@ -105,6 +106,14 @@
          </ul>
       </nav>
       
+      <!-- Hamburger Menu -->
+      <nav id="ham-menu" class="navbar navbar-expand-sm animated fadeIn justify-content-end">
+         <a class="logo navbar-brand" href="https://www.zendentalsf.com">
+         <img src="../images/Zen+Dental+Logo.png" alt="Zen Dental Studio" class="Header-branding-logo">
+         </a>
+         <button class="btn hamburger-btn" onclick="openNav()"><i class="fa fa-bars" ></i></button>
+      </nav>
+
       <!-- Main card -->
       <div class="card animated fadeInLeft image-card">
          <div class="card-body image-body">
@@ -375,6 +384,31 @@
             </div>
          </div>
       </div>
+
+      <!-- Overlay menu -->
+      <div id="myNav" class="overlay">
+         <a class="closebtn" onclick="closeNav()">&times;</a>
+         <div class="overlay-content">
+            <div class="main-menu animated slideInLeft">
+               <a class="menu-item" href="https://www.zendentalsf.com/covid19">Covid-19</a>
+               <a class="menu-item" onclick="moveToSubmenu('about')">About</a>
+               <a class="menu-item" onclick="moveToSubmenu('patients')">Patients</a>
+               <a class="menu-item" href="https://www.zendentalsf.com/contact">Contact</a>
+               <button href="https://www.nexhealth.com/appt/zendentalstudio" class="btn button-style mini-menu-btn">BOOK NOW</button>
+            </div>
+            <div class="about animated slideInLeft">
+               <button onclick="goBack('about')" class="back-btn btn">Back</button>
+               <a class="menu-item" href="https://www.zendentalsf.com/about/#a-staff">Staff</a>
+               <a class="menu-item" href="https://www.zendentalsf.com/about/#a-office">Office</a>
+            </div>
+            <div class="patients animated slideInLeft">
+               <button onclick="goBack('patients')" class="back-btn btn">Back</button>
+               <a class="menu-item" href="https://www.zendentalsf.com/patients/#p-insurance">Insurance</a>
+               <a class="menu-item" href="https://www.zendentalsf.com/patients/#p-membership">Membership</a>
+            </div>
+         </div>
+      </div>
+
    </body>
 
 </html>
