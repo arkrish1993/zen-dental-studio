@@ -1,6 +1,6 @@
 var currentPos = 0;
 
-function pling() {
+function closeCovid() {
 	document.querySelector('.covid-ad').hidden = true;
 }
 
@@ -39,16 +39,28 @@ function setDefaults() {
 }
 
 function toggle(option) {
+	let collapseItems = document.getElementsByClassName('collapse');
+	let collapseArr = Array.from(collapseItems);
 	let optionEl = document.querySelector('#' + option);
-	if (optionEl.classList.contains('show')) {
-		optionEl.classList.remove('show');
-		optionEl.querySelector('.animated').classList.add('fadeInUp');
-		optionEl.querySelector('.animated').classList.remove('fadeInDown');
-	} else {
-		optionEl.classList.add('show');
-		optionEl.querySelector('.animated').classList.remove('fadeInUp');
-		optionEl.querySelector('.animated').classList.add('fadeInDown');
-	}
+	collapseArr.forEach(function (item, index) {
+		let itemClassList = collapseItems[index].classList;
+		let animatedClassList = collapseItems[index].querySelector('.animated').classList;
+		if (item.id === optionEl.id) {
+			if (itemClassList.contains('show')) {
+				itemClassList.remove('show');
+				animatedClassList.add('fadeInUp');
+				animatedClassList.remove('fadeInDown');
+			} else {
+				itemClassList.add('show');
+				animatedClassList.remove('fadeInUp');
+				animatedClassList.add('fadeInDown');
+			}
+		} else {
+			itemClassList.remove('show');
+			animatedClassList.add('fadeInUp');
+			animatedClassList.remove('fadeInDown');
+		}
+	});
 }
 
 function setActiveSlide(action) {
