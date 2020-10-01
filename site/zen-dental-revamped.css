@@ -1,404 +1,324 @@
 body {
-    background-color: #E9F0F0;
-    font-family: futura-pt, sans-serif;
+	background-color: #E9F0F0;
+	font-family: futura-pt, sans-serif;
 }
 
 .covid-ad {
-    background-color: #f5f5dc;
-    border: none;
+	background-color: #f5f5dc;
+	border: none;
 }
 
 .covid-link {
-    padding: 0.45em;
-    text-align: center;
+	padding: 0.45em;
+	text-align: center;
 }
 
-a.covid, a.covid:hover {
-    color: #b49e43;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 15px;
-    letter-spacing: .03em;
-    line-height: 1.8em;
-    text-transform: none;
-    text-decoration: none;
+a.covid,
+a.covid:hover {
+	color: #b49e43;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: .03em;
+	line-height: 1.8em;
+	text-transform: none;
+	text-decoration: none;
 }
 
-.close-btn, .close-btn:hover {
-    width: 45px;
-    position: fixed;
-    right: 0;
-    top: 0;
-    height: 1.75em;
-    background-color: #d4cdad !important;
-    border: none;
+.close-btn,
+.close-btn:hover {
+	width: 45px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 1.75em;
+	background-color: #d4cdad !important;
+	border: none;
 }
 
 .x-icon {
-    color: #836e19;
-    background-color: #d4cdad;
-    text-shadow: none;
-    font-size: 11pt;
-    font-weight: bold;
-    position: relative;
-    bottom: 3px;
+	color: #836e19;
+	background-color: #d4cdad;
+	text-shadow: none;
+	font-size: 11pt;
+	font-weight: bold;
+	position: relative;
+	bottom: 3px;
 }
 
 .Header-branding-logo {
-    transform: scale(0.8);
-    height: 2.7em;
-    width: 11.25em;
-    position: absolute;
-    left: 2.5em;
-    top: 2em;
+	transform: scale(0.8);
+	height: 2.7em;
+	width: 11.25em;
+	position: absolute;
+	left: 2.5em;
+	top: 2em;
 }
 
 .logo {
-    width: fit-content;
-    border: none;
-    background: transparent;
-    padding: 1.75em 1.75em 1.75em 1.58em;
+	width: fit-content;
+	border: none;
+	background: transparent;
+	padding: 1.75em 1.75em 1.75em 1.58em;
 }
 
-logo > a {
-    width: fit-content;
+logo>a {
+	width: fit-content;
 }
 
 .navbar .nav-item:not(:last-child) {
-    margin-right: 35px;
+	margin-right: 35px;
 }
-   
+
 .dropdown-toggle::after {
-    transition: transform 0.15s linear; 
+	transition: transform 0.15s linear;
 }
 
 .show.dropdown .dropdown-toggle::after {
-    transform: translateY(3px);
+	transform: translateY(3px);
 }
 
 .button-style {
-    font-weight: 700;
-    font-style: normal;
-    font-size: 15px;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    background-color: #ba812e;
-    border: none;
-    color: #ffffff;
-    border-radius: 0;
-    padding: 0.5em 1em;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 15px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	background-color: #ba812e;
+	border: none;
+	color: #ffffff;
+	border-radius: 0;
+	padding: 0.5em 1em;
 }
 
-.button-style:hover, .button-style:focus {
-    background-color: #be914e;
-    color: #ffffff;
+.button-style:hover,
+.button-style:focus {
+	background-color: #be914e;
+	color: #ffffff;
 }
 
 .navbar {
-    padding: 2em 5em 2em 2em;
+	padding: 2em 5em 2em 2em;
 }
 
 .black-text {
-    transition: color 0.5s ease;
-    color: #000000 !important;
+	transition: color 0.5s ease;
+	color: #000000 !important;
 }
 
 .grey-text {
-    transition: color 0.5s ease;
-    color: #757575 !important;
+	transition: color 0.5s ease;
+	color: #757575 !important;
 }
 
 .dropdown-menu {
-    top: 2em;
-    border: none;
-    background-color: transparent;
+	top: 2em;
+	border: none;
+	background-color: transparent;
 }
 
 .dropdown-item:hover {
-    transition: color 0.5s ease;
-    background-color: transparent;
-    color: #000000 !important;
+	transition: color 0.5s ease;
+	background-color: transparent;
+	color: #000000 !important;
 }
 
 .dropdown-item {
-    transition: color 0.5s ease;
-    background-color: transparent;
-    color: #757575 !important;
+	transition: color 0.5s ease;
+	background-color: transparent;
+	color: #757575 !important;
 }
 
 .image-card {
-    border: none;
-    background-color: transparent;
+	border: none;
+	background-color: transparent;
 }
 
 .image-body {
-    padding: 0;
+	padding: 0;
 }
 
 .image-title {
-    position: absolute;
-    top: 17%;
-    left: 24%;
-    font-family: psfournier-std-grand;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 100px;
-    letter-spacing: 0em;
-    text-transform: none;
-    line-height: 1.1em;
-    width: 54%;
+	position: absolute;
+	top: 17%;
+	left: 24%;
+	font-family: psfournier-std-grand;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100px;
+	letter-spacing: 0em;
+	text-transform: none;
+	line-height: 1.1em;
+	width: 54%;
 }
 
 .image-subtitle {
-    position: absolute;
-    top: 57%;
-    left: 34%;
-    font-family: psfournier-std-grand;
-    font-size: 34px;
-    letter-spacing: 0em;
-    text-transform: none;
-    line-height: 1.1em;
-    width: fit-content;
-    color: gray;
+	position: absolute;
+	top: 57%;
+	left: 34%;
+	font-family: psfournier-std-grand;
+	font-size: 34px;
+	letter-spacing: 0em;
+	text-transform: none;
+	line-height: 1.1em;
+	width: fit-content;
+	color: gray;
 }
 
 .image-button {
-    position: absolute;
-    top: 70%;
-    left: 34%;
+	position: absolute;
+	top: 70%;
+	left: 34%;
 }
 
 .image-card-white {
-    border: none;
-    background-color: #ffffff;
-    margin-top: 15em;
-    width: 100%;
+	border: none;
+	background-color: #ffffff;
+	margin-top: 15em;
+	width: 100%;
 }
 
 .image-2 {
-    z-index: -1;
-    position: relative;
-    float: right;
-    top: 3em;
+	z-index: -1;
+	position: relative;
+	float: right;
+	top: 3em;
 }
 
 .image-title-2 {
-    position: absolute;
-    top: 34%;
-    left: 45%;
-    font-family: psfournier-std-grand;
-    font-size: 34px;
-    letter-spacing: 0em;
-    text-transform: none;
-    line-height: 1.1em;
-    width: 44%;
-    color: gray;
+	position: absolute;
+	top: 34%;
+	left: 45%;
+	font-family: psfournier-std-grand;
+	font-size: 34px;
+	letter-spacing: 0em;
+	text-transform: none;
+	line-height: 1.1em;
+	width: 44%;
+	color: gray;
 }
 
 .image-3 {
-    margin-top: 10%;
+	margin-top: 10%;
 }
 
 .zen {
-    color: black;
-    font-weight: bold;
+	color: black;
+	font-weight: bold;
 }
 
 .sub-heading {
-    color: #ba812e;
-    font-weight: bold !important;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 1.8em;
-    margin-left: 1.5em;
-    letter-spacing: 2px;
+	color: #ba812e;
+	font-weight: bold !important;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 1.8em;
+	margin-left: 1.5em;
+	letter-spacing: 2px;
 }
 
 .accordion-card {
-    position: absolute;
-    top: 15%;
+	position: absolute;
+	top: 15%;
 }
 
 .plus-icon {
-    color: #ba812e;
-    font-size: 25pt;
-    margin-right: 0.5em;
+	color: #ba812e;
+	font-size: 25pt;
+	margin-right: 0.5em;
 }
 
-.pointer, .pointer:hover {
-    cursor: pointer;
-    font-size: 19pt;
-    text-decoration: none;
-    color: #000000;
+.pointer,
+.pointer:hover {
+	cursor: pointer;
+	font-size: 19pt;
+	text-decoration: none;
+	color: #000000;
 }
 
 .accordion-option {
-    background-color: transparent;
-    border: none;
-    width: fit-content;
-    font-family: psfournier-std-grand;
+	background-color: transparent;
+	border: none;
+	width: fit-content;
+	font-family: psfournier-std-grand;
 }
 
 .accordion-option .card-header {
-    background-color: transparent;
-    text-shadow: none;
-    border: none;
-    width: fit-content;
-    font-family: psfournier-std-grand;
+	background-color: transparent;
+	text-shadow: none;
+	border: none;
+	width: fit-content;
+	font-family: psfournier-std-grand;
 }
 
 .collapse {
-    width: 49%;
-    margin: -1em 0 0 2.5em;
-    font-size: 11pt;
-    color: gray;
+	width: 49%;
+	margin: -1em 0 0 2.5em;
+	font-size: 11pt;
+	color: gray;
 }
 
 .accordion-style {
-    height: 22em;
+	height: 22em;
 }
 
 .service-header {
-    font-size: 4em;
-    font-weight: normal;
-    padding: 2em 1em 0.5em 0.75em;
-    font-family: psfournier-std-grand;
+	font-size: 4em;
+	font-weight: normal;
+	padding: 2em 1em 0.5em 0.75em;
+	font-family: psfournier-std-grand;
 }
 
 .service-text {
-    font-size: 12pt;
-    color: gray;
-    padding: 0 1em 1em 3em;
-    width: 78%;
-    font-family: psfournier-std-grand;
+	font-size: 12pt;
+	color: gray;
+	padding: 0 1em 1em 3em;
+	width: 78%;
+	font-family: psfournier-std-grand;
 }
 
 .services-sub-heading {
-    padding-left: 1.75em;
+	padding-left: 1.75em;
 }
 
 .service-item {
-    font-size: 2em;
-    padding: 1em 0 0 0.25em;
-    width: fit-content;
-    font-family: psfournier-std-grand;
+	font-size: 2em;
+	padding: 1em 0 0 0.25em;
+	width: fit-content;
+	font-family: psfournier-std-grand;
 }
 
 .service-btn {
-    padding: 1em 1em;
-    margin-left: 3em;
+	padding: 1em 1em;
+	margin-left: 3em;
 }
 
 .reviews-body {
-    text-align: center;
-    height: 16em;
+	text-align: center;
+	height: 16em;
 }
 
 .reviews-sub-heading {
-    margin-top: 8%;
+	margin-top: 8%;
 }
 
 .carousel-inner {
-    width: 34em;
-    text-align: left;
-    margin-left: 33%;
+	width: 34em;
+	text-align: left;
+	margin-left: 33%;
 }
 
 .carousel-item-header {
-    font-size: 15pt;
-    font-family: 'PSFournier Std Grand';
-    margin: 2em 0 1em 0;
+	font-size: 15pt;
+	font-family: 'PSFournier Std Grand';
+	margin: 2em 0 1em 0;
 }
 
 .carousel-item-data {
-    font-size: 16pt;
-    color: gray;
-    font-family: 'PSFournier Std Grand';
-    margin-left: 1em;
-}
-
-.query-body {
-    text-align: center;
-}
-
-.query-text {
-    font-size: 2em;
-    font-style: italic;
-    font-family: psfournier-std-grand;
-    margin: 0 0 0.5em 0;
-}
-
-.query-btn {
-    padding: 1.5em;
-}
-
-.book-btn {
-    padding: 1em 1.5em 1em 1.5em;
-    margin-left: 3.5em;
-}
-
-.black-header {
-    font-size: 13px;
-    color: #000;
-    letter-spacing: .2em;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 3em 3em 1em 4em;
-    padding-bottom: 1em;
-    border-bottom: 1px solid #A6C4C5;
-}
-
-.footer-link {
-    color: black;
-    font-size: 1.5em;
-    font-family: psfournier-std-grand;
-    margin: 1em 0 0 0.5em;
-    text-decoration: none;
-}
-
-.footer-link:hover {
-    transition: color 0.5s ease;
-    color: #ba812e;
-    font-size: 1.5em;
-    font-family: psfournier-std-grand;
-    margin: 1em 0 0 0.5em;
-    text-decoration: none;
-}
-
-.footer-item {
-    color: black;
-    font-size: 1.5em;
-    font-family: psfournier-std-grand;
-    margin: 0 0 0.25em 0.5em;
-}
-
-.address-link {
-    text-decoration: none;
-    border-bottom: 1px solid black;
-    color: black;
-    font-size: 10.5pt;
-    margin-left: 3.75em;
-}
-
-.address-link:hover {
-    text-decoration: none;
-    font-weight: bold;
-    border-bottom: 1px solid black;
-    color: black;
-    font-size: 10.5pt;
-    margin-left: 3.75em;
-}
-
-.address-text {
-    color: black;
-    font-size: 10.5pt;
-    margin: 1em 0 1em 3.75em;
-}
-
-.quote {
-    color: black;
-    font-size: 12pt;
-    position: absolute;
+	font-size: 16pt;
+	color: gray;
+	font-family: 'PSFournier Std Grand';
+	margin-left: 1em;
 }
 
 .carousel-icon {
@@ -421,4 +341,88 @@ logo > a {
     position: absolute;
     right: 25%;
     cursor: pointer;
+}
+
+.query-body {
+	text-align: center;
+}
+
+.query-text {
+	font-size: 2em;
+	font-style: italic;
+	font-family: psfournier-std-grand;
+	margin: 0 0 0.5em 0;
+}
+
+.query-btn {
+	padding: 1.5em;
+}
+
+.book-btn {
+	padding: 1em 1.5em 1em 1.5em;
+	margin-left: 3.5em;
+}
+
+.black-header {
+	font-size: 13px;
+	color: #000;
+	letter-spacing: .2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 3em 3em 1em 4em;
+	padding-bottom: 1em;
+	border-bottom: 1px solid #A6C4C5;
+}
+
+.footer-link {
+	color: black;
+	font-size: 1.5em;
+	font-family: psfournier-std-grand;
+	margin: 1em 0 0 0.5em;
+	text-decoration: none;
+}
+
+.footer-link:hover {
+	transition: color 0.5s ease;
+	color: #ba812e;
+	font-size: 1.5em;
+	font-family: psfournier-std-grand;
+	margin: 1em 0 0 0.5em;
+	text-decoration: none;
+}
+
+.footer-item {
+	color: black;
+	font-size: 1.5em;
+	font-family: psfournier-std-grand;
+	margin: 0 0 0.25em 0.5em;
+}
+
+.address-link {
+	text-decoration: none;
+	border-bottom: 1px solid black;
+	color: black;
+	font-size: 10.5pt;
+	margin-left: 3.75em;
+}
+
+.address-link:hover {
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	color: black;
+	font-size: 10.5pt;
+	margin-left: 3.75em;
+}
+
+.address-text {
+	color: black;
+	font-size: 10.5pt;
+	margin: 1em 0 1em 3.75em;
+}
+
+.quote {
+	color: black;
+	font-size: 12pt;
+	position: absolute;
 }
