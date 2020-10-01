@@ -261,7 +261,7 @@ a.covid:hover {
 .pointer,
 .pointer:hover {
 	cursor: pointer;
-    font-size: 190t;
+    font-size: 2vw;
     text-decoration: none;
     color: #000000;
 }
@@ -279,17 +279,24 @@ a.covid:hover {
 	border: none;
 	width: fit-content;
 	font-family: psfournier-std-grand;
+	padding: 1vw 0 1vw 1.5vw;
 }
 
 .collapse {
-	width: 49%;
-	margin: -1em 0 0 2.5em;
-	font-size: 11pt;
+    width: 40vw;
+	font-size: 1.2vw;
 	color: gray;
 }
 
 .accordion-style {
 	height: 43vw;
+}
+
+.accordion-text {
+	padding: 0;
+    position: relative;
+    top: 0vw;
+    left: 3.5vw;
 }
 
 .service-header {
@@ -485,7 +492,7 @@ a.covid:hover {
 	text-align: center;
 }
 
-.overlay a {
+.overlay a.menu-item, .overlay a.closebtn {
 	padding: 1vw;
     text-decoration: none;
     font-size: 7vw;
@@ -509,6 +516,48 @@ a.covid:hover {
 	color:  #ba812e;
 }
 
+
+.hamburger-btn {
+	position: absolute;
+    right: 1vw;
+}
+
+.closebtn, .closebtn:hover {
+	position: absolute;
+    top: 0vw;
+    right: 3vw;
+    font-size: 6vw;
+	color: #ba812e;
+	cursor: pointer;
+}
+
+.about, .patients {
+	display: none;
+}
+
+.main-menu, .about, .patients {
+	position: absolute;
+    top: 6vw;
+    left: 8vw;
+    text-align: left;
+}
+
+.mini-menu-btn {
+	padding: 3vw;
+    font-size: 3vw;
+}
+
+.back-btn, .back-btn:hover {
+	font-size: 5vw;
+    color: gray;
+    text-decoration: none;
+}
+
+#accordion {
+	position: absolute;
+    left: 3vw;
+}
+
 @media screen and (max-width: 600px) {
 	#menu {
 		display: none;
@@ -527,40 +576,4 @@ a.covid:hover {
 	#ham-menu, #myNav {
 		display: none;
 	}
-}
-
-.hamburger-btn {
-	position: absolute;
-    right: 1vw;
-}
-
-.closebtn, .closebtn:hover {
-    position: absolute;
-    top: 0vw;
-    right: 3vw;
-    font-size: 6vw;
-	color: #ba812e;
-	cursor: pointer;
-}
-
-.about, .patients {
-	display: none;
-}
-
-.main-menu, .about, .patients {
-    position: absolute;
-    top: 6vw;
-    left: 8vw;
-    text-align: left;
-}
-
-.mini-menu-btn {
-	padding: 3vw;
-    font-size: 3vw;
-}
-
-.back-btn, .back-btn:hover {
-	font-size: 5vw;
-    color: gray;
-    text-decoration: none;
 }
