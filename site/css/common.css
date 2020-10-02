@@ -1,6 +1,5 @@
 body {
 	background-color: #EFEEED;
-	font-family: futura-pt, sans-serif;
 	position: absolute;
 	z-index: 1;
 }
@@ -42,6 +41,7 @@ button:hover {
 	position: absolute;
 	top: 3.5vw;
 	right: 5vw;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav-link {
@@ -103,7 +103,7 @@ button:hover {
 	background-color: transparent;
 	border: none;
 	width: fit-content;
-	font-family: psfournier-std-grand;
+	font-family: 'Libre Baskerville', serif;
 }
 
 .reviews-body {

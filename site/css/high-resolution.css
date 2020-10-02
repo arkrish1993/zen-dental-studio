@@ -78,7 +78,7 @@ a.covid:hover {
 
 .image-4 {
 	top: 6vw;
-	height: 40vw;
+	height: 45vw;
 	z-index: -1;
 	position: relative;
 	float: right;
@@ -88,10 +88,10 @@ a.covid:hover {
 	position: absolute;
 	top: 8vw;
 	left: 24vw;
-	font-family: psfournier-std-grand;
+	font-family: 'Libre Baskerville', serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 8vw;
+	font-size: 6vw;
 	letter-spacing: 0;
 	text-transform: none;
 	line-height: 8vw;
@@ -102,8 +102,8 @@ a.covid:hover {
 	position: absolute;
 	top: 15vw;
 	left: 38.5vw;
-	font-family: psfournier-std-grand;
-	font-size: 2.4vw;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 2vw;
 	letter-spacing: 0em;
 	text-transform: none;
 	line-height: 2.9vw;
@@ -115,8 +115,8 @@ a.covid:hover {
 	position: absolute;
 	top: 28vw;
 	left: 33vw;
-	font-family: psfournier-std-grand;
-	font-size: 2.5vw;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 2.1vw;
 	letter-spacing: 0;
 	text-transform: none;
 	line-height: 1vw;
@@ -133,7 +133,7 @@ a.covid:hover {
 .button-style {
 	font-weight: 700;
 	font-style: normal;
-	font-size: 1vw;
+	font-size: 0.9vw;
 	letter-spacing: .1em;
 	text-transform: uppercase;
 	background-color: #ba812e;
@@ -141,6 +141,7 @@ a.covid:hover {
 	color: #ffffff;
 	border-radius: 0;
 	padding: 0.75vw 1.75vw;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .image-card-white {
@@ -155,7 +156,7 @@ a.covid:hover {
 	height: 48vw;
 	border: none;
 	background-color: #ffffff;
-	top: 3vw;
+	top: 8vw;
 	width: 100%;
 }
 
@@ -176,10 +177,11 @@ a.covid:hover {
 	color: #ba812e;
 	font-weight: bold !important;
 	font-style: normal;
-	font-size: 1.1vw;
+	font-size: 1vw;
 	line-height: 1.1vw;
 	margin-left: 3vw;
 	letter-spacing: 0.2vw;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 #accordion {
@@ -196,7 +198,7 @@ a.covid:hover {
 	text-shadow: none;
 	border: none;
 	width: fit-content;
-	font-family: psfournier-std-grand;
+	font-family: 'Libre Baskerville', serif;
 	padding: 1vw 0 1vw 1.5vw;
 }
 
@@ -228,18 +230,18 @@ a.covid:hover {
 }
 
 .service-header {
-	font-size: 5vw;
+	font-size: 4vw;
 	font-weight: normal;
 	padding: 7vw 1vw 2vw 5vw;
-	font-family: psfournier-std-grand;
+	font-family: 'Libre Baskerville', serif;
 }
 
 .service-text {
-	font-size: 1.3vw;
+	font-size: 1.1vw;
 	color: #818b8c;
 	padding: 0 0 2vw 5vw;
 	width: 40vw;
-	font-family: psfournier-std-grand;
+	font-family: 'Libre Baskerville', serif;
 }
 
 .services-sub-heading {
@@ -249,7 +251,7 @@ a.covid:hover {
 .service-item {
 	font-size: 2.2vw;
 	width: fit-content;
-	font-family: psfournier-std-grand;
+	font-family: 'Libre Baskerville', serif;
 	position: relative;
 	left: 2vw;
 	top: 1vw;
@@ -264,10 +266,11 @@ a.covid:hover {
 	color: #ba812e;
 	font-weight: bold !important;
 	font-style: normal;
-	font-size: 1.1vw;
+	font-size: 1vw;
 	line-height: 1.1vw;
 	margin-left: 3vw;
 	letter-spacing: 0.2vw;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .reviews-card {
@@ -275,7 +278,7 @@ a.covid:hover {
 }
 
 .reviews-sub-heading {
-	margin-top: 9vw;
+	margin-top: 12vw;
 }
 
 .carousel-inner {
@@ -333,9 +336,8 @@ a.covid:hover {
 }
 
 .query-text {
-	font-size: 2.25vw;
-	font-style: italic;
-	font-family: psfournier-std-grand;
+	font-size: 2.75vw;
+	font-family: 'Caveat', cursive;
 	margin: 0 0 1.25vw 0;
 }
 
@@ -362,12 +364,13 @@ a.covid:hover {
 	margin: 3vw 3vw 1vw 5vw;
 	padding-bottom: 1vw;
 	border-bottom: 1px solid #A6C4C5;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .footer-link {
 	color: black;
-	font-size: 2vw;
-	font-family: psfournier-std-grand;
+	font-size: 1.5vw;
+	font-family: 'Libre Baskerville', serif;
 	margin: 1vw 0 0 2vw;
 	text-decoration: none;
 }
@@ -375,16 +378,16 @@ a.covid:hover {
 .footer-link:hover {
 	transition: color 0.5s ease;
 	color: #ba812e;
-	font-size: 2vw;
-	font-family: psfournier-std-grand;
+	font-size: 1.5vw;
+	font-family: 'Libre Baskerville', serif;
 	margin: 1vw 0 0 2vw;
 	text-decoration: none;
 }
 
 .footer-item {
 	color: black;
-	font-size: 2vw;
-	font-family: psfournier-std-grand;
+	font-size: 1.5vw;
+	font-family: 'Libre Baskerville', serif;
 	margin: 0 0 0.25vw 2vw;
 }
 
@@ -394,6 +397,7 @@ a.covid:hover {
 	color: black;
 	font-size: 1vw;
 	margin-left: 5vw;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .address-link:hover {
@@ -403,10 +407,12 @@ a.covid:hover {
 	color: black;
 	font-size: 1vw;
 	margin-left: 5vw;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .address-text {
 	color: black;
 	font-size: 1vw;
 	margin: 1vw 0 1vw 5vw;
+	font-family: 'Josefin Sans', sans-serif;
 }
