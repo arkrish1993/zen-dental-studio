@@ -1,0 +1,111 @@
+body {
+	background-color: #EFEEED;
+	font-family: futura-pt, sans-serif;
+	position: absolute;
+	z-index: 1;
+}
+
+button,
+button:hover {
+	text-decoration: none;
+}
+
+* {
+	outline: none;
+}
+
+.covid-ad {
+	background-color: #f5f5dc;
+	border: none;
+}
+
+.covid-link {
+	padding: 0.75vw;
+	text-align: center;
+}
+
+.logo {
+	width: fit-content;
+	border: none;
+	background: transparent;
+}
+
+.logo>a {
+	width: fit-content;
+}
+
+.navbar .nav-item:not(:last-child) {
+	margin-right: 2vw;
+}
+
+.navbar-nav {
+	position: absolute;
+	top: 3.5vw;
+	right: 5vw;
+}
+
+.nav-link {
+	font-size: 1.05vw;
+	margin-top: 0.1vw;
+}
+
+.button-style:hover,
+.button-style:focus {
+	background-color: #be914e;
+	color: #ffffff;
+}
+
+.black-text {
+	transition: color 0.5s ease;
+	color: #000000 !important;
+}
+
+.grey-text {
+	transition: color 0.5s ease;
+	color: #a5acad !important;
+}
+
+.dropdown-menu {
+	top: 2vw;
+	border: none;
+	background-color: transparent;
+}
+
+.dropdown-item:hover {
+	font-size: 1.05vw;
+	transition: color 0.5s ease;
+	background-color: transparent;
+	color: #000000 !important;
+}
+
+.dropdown-item {
+	font-size: 1.05vw;
+	transition: color 0.5s ease;
+	background-color: transparent;
+	color: #a5acad !important;
+}
+
+.image-card {
+	border: none;
+	background-color: transparent;
+}
+
+.image-body {
+	padding: 0;
+}
+
+.zen {
+	color: black;
+	font-weight: bold;
+}
+
+.accordion-option {
+	background-color: transparent;
+	border: none;
+	width: fit-content;
+	font-family: psfournier-std-grand;
+}
+
+.reviews-body {
+	text-align: center;
+}
