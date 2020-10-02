@@ -102,7 +102,7 @@ function shiftPrev() {
 }
 
 function openNav() {
-	document.getElementById("myNav").style.width = "100%";
+	document.getElementById("mini-menu").style.width = "100%";
 	document.body.style.overflow = 'hidden';
 	this.goBack('about');
 	this.goBack('patients');
@@ -110,7 +110,7 @@ function openNav() {
   
 function closeNav() {
 	document.body.style.overflow = 'auto';
-	document.getElementById("myNav").style.width = "0%";
+	document.getElementById("mini-menu").style.width = "0%";
 }
 
 function moveToSubmenu(menu) {
